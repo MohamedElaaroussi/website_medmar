@@ -1,0 +1,97 @@
+
+/*****************/
+/*     Video     */
+/*****************/
+.basic-2 {
+	padding-top: 3rem;
+	text-align: center;
+}
+
+.basic-2 .p-heading {
+	margin-bottom: 3.5rem;
+}
+
+.basic-2 .image-container img {
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+
+.basic-2 .video-wrapper {
+	position: relative;
+}
+
+/* Video Play Button */
+.basic-2 .video-play-button {
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	display: block;
+	box-sizing: content-box;
+	width: 32px;
+	height: 44px;
+	padding: 1.125rem 1.25rem 1.125rem 1.75rem;
+	border-radius: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+  
+.basic-2 .video-play-button:before {
+	content: "";
+	position: absolute;
+	z-index: 0;
+	top: 50%;
+	left: 50%;
+	display: block;
+	width: 76px;
+	height: 76px;
+	border-radius: 50%;
+	background: #3dcac8;
+	animation: pulse-border 1500ms ease-out infinite;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+  
+.basic-2 .video-play-button:after {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	display: block;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: #3dcac8;
+	transition: all 200ms;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+  
+.basic-2 .video-play-button span {
+	position: relative;
+	display: block;
+	z-index: 3;
+	top: 6px;
+	left: 4px;
+	width: 0;
+	height: 0;
+	border-left: 26px solid #ffffff;
+	border-top: 16px solid transparent;
+	border-bottom: 16px solid transparent;
+}
+  
+@keyframes pulse-border {
+	0% {
+		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+		opacity: 1;
+	}
+	100% {
+		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+		opacity: 0;
+	}
+}
+/* end of video play button */
