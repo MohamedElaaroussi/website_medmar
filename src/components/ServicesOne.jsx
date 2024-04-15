@@ -12,7 +12,7 @@ export default function ServicesOne() {
           <div className="row g-5">
             <div className="col-md-5 col-lg-6 py-3">
               <div className="pt-lg-5">
-                <h1 className="cl-blue-900 mt-3">
+                <h1 className="cl-blue-900 mt-3 Font_Title">
                   {/* Journalisme et Media   */}
                   {t("Journalisme et Media")}
                 </h1>

@@ -67,6 +67,8 @@ export default function App() {
       let newY = follower.y + newVy;
 
       // Apply position to the state
+
+      
       setFollower({ x: newX, y: newY, vx: newVx, vy: newVy });
     };
 

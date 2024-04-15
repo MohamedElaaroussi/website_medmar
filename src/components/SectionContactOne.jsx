@@ -12,9 +12,9 @@ export default function SectionContactOne() {
 
 <div className="col-12">
   <div className="row gx-5 gy-3 align-items-center">
-    <div className="col-12 col-md-6">
+    <div className="col-12 col-md-6 ">
       {/* <h2>Contactez-nous, Prenons Ensemble la Voie du Succès</h2> */}
-      <h2>{t('Contactez-nous, Prenons Ensemble la Voie du Succès')}</h2>
+      <h2 className='Font_Title'>{t('Contactez-nous, Prenons Ensemble la Voie du Succès')}</h2>
 
       <p className="py-3">
       {/* Nous sommes impatients de vous entendre ! Que vous ayez une question, un projet passionnant en tête ou que vous souhaitiez simplement en savoir plus sur nos services, notre équipe dévouée est là pour vous. Remplissez le formulaire ci-dessous, et nous vous contacterons rapidement pour discuter de la meilleure façon dont MedMar Agence peut vous aider à atteindre vos objectifs en matière de marketing digital. Votre succès commence ici. */}

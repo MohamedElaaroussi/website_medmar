@@ -17,7 +17,7 @@ export default function Evenementiel() {
             <div className="col-md-5 col-lg-6 py-3">
               <div className="pt-lg-5">
 
-                <h1 className="cl-blue-900 mt-3">
+                <h1 className="cl-blue-900 mt-3 Font_Title">
                   {/* Créez des Moments Inoubliables avec Nous */}
                   {t("Créez des Moments Inoubliables avec Nous")}
                 </h1>

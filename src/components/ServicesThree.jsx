@@ -24,7 +24,7 @@ export default function ServicesThree() {
               />
             </div>
           </div>
-          <div className="col-12 col-md-6 order-md-2 order-1">
+          <div className="col-12 col-md-6 order-md-2 order-1 ">
             <h2>
               {/* Production Audio Visuelle */}
               {t("Production Audio Visuelle")}

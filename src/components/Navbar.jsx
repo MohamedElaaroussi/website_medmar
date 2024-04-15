@@ -59,6 +59,12 @@ export default function Navbar() {
                     العربية
                   </button>
                 </li>
+                {/* <li>
+                  <input type="checkbox" class="sr-only" id="darkmode-toggle"/>
+                    <label for="darkmode-toggle" class="toggle">
+                      <span>Toggle dark mode</span>
+                    </label>
+                </li> */}
               </span>
 
             </ul>

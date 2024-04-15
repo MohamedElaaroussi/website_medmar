@@ -588,6 +588,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 550;
   font-style: normal;
+  font-size: 40px;
 }
 .Font_desc {
   font-weight: normal;
@@ -1127,3 +1128,9 @@ html {
   width: 4px;
   height: 4px;
 }
+
+
+
+
+
+

@@ -6,7 +6,7 @@ import FeaturesSection from '../components/FeaturesSection'
 import ServicesSection from '../components/ServicesSection'
 import LasteSection from '../components/LasteSection'
 import OurClient from '../components/OurClient'
-import WatsssapIcons from "../components/WatsssapIcons"
+// import WatsssapIcons from "../components/WatsssapIcons"
 export default function Home() {
   return (
     <>
@@ -18,7 +18,7 @@ export default function Home() {
         <ServicesSection />
         <OurClient />
       </Fragment>
-      <WatsssapIcons/>
+      {/* <WatsssapIcons/> */}
     </>
   )
 }
