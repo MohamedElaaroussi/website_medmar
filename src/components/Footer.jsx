@@ -21,19 +21,19 @@ export default function Footer() {
           </div>
           <div>
             <a className="me-4 text-reset" >
-              <i className="fab fa-facebook-f"></i>
+              <i className="fab fa-facebook-f px-2"></i>
             </a>
             <a className="me-4 text-reset">
-              <i className="fab fa-twitter"></i>
+              <i className="fab fa-twitter px-2"></i>
             </a>
             <a className="me-4 text-reset">
-              <i className="fab fa-google"></i>
+              <i className="fab fa-google px-2"></i>
             </a>
             <a className="me-4 text-reset">
-              <i className="fab fa-instagram"></i>
+              <i className="fab fa-instagram px-2"></i>
             </a>
             <a className="me-4 text-reset">
-              <i className="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin px-2"></i>
             </a>
 
           </div>
@@ -50,7 +50,7 @@ export default function Footer() {
                   {t("Medmar est une agence de médias, marketing et publicité...")}
                 </p>
               </div>
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 my-3">
                 <h6 className="text-uppercase fw-bold mb-4">
                   {t("Pages")}
                 </h6>
@@ -62,53 +62,53 @@ export default function Footer() {
                   ))
                 }
               </div>
-              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 my-3">
                 <h6 className="text-uppercase fw-bold mb-4">
                   {t("Social media")}
                 </h6>
                 <p>
-                  <i className="fab fa-facebook "></i>
-                  <a target='_blank' href="https://www.facebook.com/profile.php?id=100092279935083"
+                  <i className="fab fa-facebook  px-2"></i>
+                  <a  href="https://www.facebook.com/profile.php?id=100092279935083"
                     className="text-reset">
                     Facebook
                   </a>
                 </p>
                 <p>
-                  <i className="fab fa-instagram "></i>
-                  <a target='_blank' href="https://www.instagram.com/medmarmaroc/?hl=fr" className="text-reset">
+                  <i className="fab fa-instagram px-2 px-2"></i>
+                  <a href="https://www.instagram.com/medmarmaroc/?hl=fr" className="text-reset">
                     Instagram
                   </a>
                 </p>
                 <p>
-                  <i className="fab fa-linkedin "></i>
-                  <a target='_blank' href="https://www.linkedin.com/company/medmarmaroc/" className="text-reset">
+                  <i className="fab fa-linkedin  px-2"></i>
+                  <a href="https://www.linkedin.com/company/medmarmaroc/" className="text-reset">
                     Linkedin
                   </a>
                 </p>
                 <p>
-                  <i className="fab fa-twitter "></i>
-                  <a target='_blank' href="https://twitter.com/MediaMedmar" className="text-reset">
+                  <i className="fab fa-twitter  px-2"></i>
+                  <a  href="https://twitter.com/MediaMedmar" className="text-reset">
                     Twitter
                   </a>
                 </p>
                 <p>
-                  <i className="fab fa-youtube "></i>
-                  <a target='_blank' href="https://www.youtube.com/@medmar5878" className="text-reset">
+                  <i className="fab fa-youtube  px-2"></i>
+                  <a  href="https://www.youtube.com/@medmar5878" className="text-reset">
                     Youtube
                   </a>
                 </p>
               </div>
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 my-3">
                 <h6 className="text-uppercase fw-bold mb-4">
                   {t("Contact")}
                 </h6>
-                <p><i className="fas fa-home me-3"></i>App N 7 Imm N 109 rue Abdellah Ganoune Étage 3, Agadir 80000</p>
+                <p><i className="fas fa-home me-3 px-2"></i>App N 7 Imm N 109 rue Abdellah Ganoune Étage 3, Agadir 80000</p>
                 <p>
-                  <i className="fas fa-envelope me-3"></i>
+                  <i className="fas fa-envelope me-3 px-2"></i>
                   contact@medmarmedia.com
                 </p>
-                <p><i className="fas fa-phone me-3"></i> + 212 675-264999</p>
-                <p><i className="fas fa-phone me-3"></i> + 212 529-980505</p>
+                <p><i className="fas fa-phone me-3 px-2"></i> + 212 675-264999</p>
+                <p><i className="fas fa-phone me-3 px-2"></i> + 212 529-980505</p>
               </div>
             </div>
           </div>

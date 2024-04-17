@@ -60,23 +60,26 @@ const OurClient = () => {
 					<h3>{t("Nos clients")}</h3>
 				</div>
 				<div className='mt-4 mb-4'>
-					<Swiper
-						spaceBetween={10}
-						slidesPerView={4}
-						onSlideChange={() => console.log('slide change')}
-						onSwiper={(swiper) => console.log(swiper)}
-					>
-
-						{imageList.map((client, index) => (
+				</div>
+				<Swiper
+					spaceBetween={10}
+					slidesPerView={4}
+					onSlideChange={() => console.log('slide change')}
+					onSwiper={(swiper) => console.log(swiper)}
+				>
+					{
+						imageList.map((client, index) => (
 							<SwiperSlide key={index}>
 								<div key={index}>
-									<img src={client} 
-									alt={`Client ${index + 1}`} style={{ width: "10rem", height: "5rem" }} />
+									<img src={client}
+										alt={`Client ${index + 1}`} style={{ width: "10rem", height: "5rem" }} />
 								</div>
+
 							</SwiperSlide>
-						))}
-					</Swiper>
-				</div>
+						))
+					}
+				</Swiper>
+
 			</div>
 		</div>
 	);

@@ -41,37 +41,15 @@ export default function Navbar() {
                       <span clas>  {link.link}</span>
                     </Link>
                   </li>
+              
+
                 ))
               }
-              <span className='d-flex'>
-                <li className='nav-item'>
-                  <button className="btn btn-outline-danger mt-1 mt-sm-0 fs-7 rounded-pill" onClick={() => changeLanguage('en')}>
-                    English
-                  </button>
-                </li>
-                <li className='nav-item'>
-                  <button className="btn btn-outline-danger mt-1 mt-sm-0 fs-7 rounded-pill" onClick={() => changeLanguage('fr')}>
-                    Français
-                  </button>
-                </li>
-                <li className='nav-item'>
-                  <button className="btn btn-outline-danger mt-1 mt-sm-0 fs-7 rounded-pill" onClick={() => changeLanguage('ar')}>
-                    العربية
-                  </button>
-                </li>
-                {/* <li>
-                  <input type="checkbox" class="sr-only" id="darkmode-toggle"/>
-                    <label for="darkmode-toggle" class="toggle">
-                      <span>Toggle dark mode</span>
-                    </label>
-                </li> */}
-              </span>
-
-            </ul>
-          </div>
-
-
-
+              
+             
+              
+              </ul>
+              </div>
         </div>
       </nav>
     </div>

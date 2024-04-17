@@ -23,7 +23,7 @@ export default function ListeEvent() {
   }, [])
   return (
     <div>
-      <section className="py-5">
+      <section className="py-5 ">
         <div className="container px-4 px-lg-5 mt-5">
           <div className="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-col-lg-3 row-cols-xl-4 justify-content-center">
             {
@@ -62,13 +62,13 @@ export default function ListeEvent() {
             }
             {
               data.map((item, index) =>
-                <div key={index} className="card ">
+                <div key={index} className="card   mb-5 col mb-4 ">
                   <div className="profile-pic">
                     <img src={`${API_STORAGE}${item.image}`} alt=" Profile Pic" />
                   </div>
                   <div className="conteneur">
                     {item.status === "avenir" ? (
-                      <div className="badge bg-success text-white">{item.status}</div>
+                      <div className="badge bg-success text-white ">{item.status}</div>
                     ) : (
                       <div className="badge bg-danger text-white">{item.status}</div>
                     )}
