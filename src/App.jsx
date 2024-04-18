@@ -3,9 +3,13 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { RouterProvider } from 'react-router-dom';
 import { router } from './router/index.jsx'
 import WatsssapIcons from './components/WatsssapIcons.jsx';
+// import WatsssapIcons from './components/WatsssapIcons.jsx';
+// import WatsssapIcons from './components/WatsssapIcons.jsx';
+// import WatsssapIcons from './components/WatsssapIcons.jsx';
+// import WatsssapIcons from './components/WatsssapIcons.jsx';
 
 
-
+       
  export default function App() {
 
 //    const [cursor, setCursor] = useState({ x: 0, y: 0 });
