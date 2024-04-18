@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'; // Importez useTranslation depuis react-i18next
 import logo from '../assets/images/logo_medmar_23.png';
 
+
+
 export default function Navbar() {
   const { t, i18n } = useTranslation(); // Utilisez useTranslation pour obtenir les fonctions de traduction t et i18n
 
@@ -12,7 +14,9 @@ export default function Navbar() {
     { path: '/sommes-nous', link: t('Somme Nous') },
     { path: '/services', link: t('Services') },
     { path: '/événementiel', link: t('Événementiel') },
+   
   ];
+ 
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language); // Changez la langue en utilisant la fonction i18n.changeLanguage
@@ -25,6 +29,7 @@ export default function Navbar() {
           <Link to={'/'}>
             <img className="navbar-brand" src={logo} style={{ width: "120px" }} />
           </Link>
+          {/* <Link to="/login">Connexion</Link> */}
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
           >

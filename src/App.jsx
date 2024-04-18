@@ -92,6 +92,7 @@ import WatsssapIcons from './components/WatsssapIcons.jsx';
        </div> */}
      <RouterProvider router={router} />
        <WatsssapIcons />
+      
      </>
    )
  }

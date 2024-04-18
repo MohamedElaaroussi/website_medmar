@@ -1246,7 +1246,127 @@ ul.primary li:hover ul {
   background: #fff;
 }
 
+/* form */
+.form-container {
+  width: 90%;
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: linear-gradient(to bottom right, #5a797e, #a7b8bb );
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,2);
+  margin-top: 100px;
+  
+}
 
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.form-container form div {
+  position: relative;
+  
+}
+
+.form-container label {
+  position: absolute;
+  opacity: 0.6;
+  font-size: 1.25rem;
+  left: 1rem;
+  pointer-events: none;
+  color: black;
+  transition: all .22s;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+  width: 100px;
+  height: 5px;
+  padding: 1.5rem;
+  background: #aabbc4;
+  margin: 1.5rem 0;
+  border: none;
+  color: #aaa;
+  font-size: 1.125rem;
+  border-radius: 10px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container button {
+  width: 90%;
+}
+
+.form-container input:focus{
+  background: white;
+  outline: 0;
+}
+
+.form-container input:focus + label,
+.form-container input:hover + label,
+.form-container input:valid + label{
+  top: 0;
+  font-size: 1.125rem;
+  transform: translateY(0);
+  left: 0;
+  opacity: 1;
+}
+
+.form-container form .cover {
+  width: 100%;
+  position: absolute;
+  background: none; 
+  height: 0; 
+  top: 1.25rem;
+}
+
+
+
+
+
+.form-container button {
+  padding: 10px;
+  background-color: #6e7996;
+  width: 90px;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0 auto;
+}
+
+.form-container button:hover {
+  background-color: rgb(221, 124, 14); 
+  color: #ffffff; 
+}
+  
+h1 {
+  font-size: 40px; 
+  font-weight: bold; 
+  color: #333333; 
+  color: #ffffff;
+  font-family: cursive;
+  margin-top: 0;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+p a{
+  text-decoration: none;
+  color: rgb(219, 86, 37);
+}
 
 
 

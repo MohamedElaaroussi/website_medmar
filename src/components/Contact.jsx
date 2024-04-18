@@ -6,7 +6,7 @@ import ContactForm from '../components/ContactForm'
 export default function Contact() {
   return (
     <div>
-    <div>
+    <div> 
         <SectionContactOne />
         <SectionContactTwo />
         <ContactForm />
