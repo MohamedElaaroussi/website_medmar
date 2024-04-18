@@ -588,7 +588,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 550;
   font-style: normal;
-  font-size: 14px;
+  font-size: 25px;
 }
 .Font_desc {
   font-weight: normal;
@@ -1131,13 +1131,7 @@ section .cards .card:nth-child(2)::before {
   height: 4px;
 }
 /* update */
-body { 
-  background:  #fff;
-  font-family: helvetica, arial, serif;
-  font-size: 13px;
-  text-transform: uppercase;
-  text-align: center;
-}
+
  
 .wrap {
   display: inline-block;
@@ -1146,6 +1140,7 @@ body {
   box-shadow: 0 0 70px #fff;
   margin-top: 40px;
 }
+
 
 /* a little "umph" */
 .decor {

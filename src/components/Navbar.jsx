@@ -25,11 +25,7 @@ export default function Navbar() {
           <Link to={'/'}>
             <img className="navbar-brand" src={logo} style={{ width: "120px" }} />
           </Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon" ></span>
-          </button>
+
 
           <div className=" collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto d-flex align-items-center">
@@ -41,15 +37,30 @@ export default function Navbar() {
                       <span clas>  {link.link}</span>
                     </Link>
                   </li>
-              
+
 
                 ))
               }
-              
-             
-              
-              </ul>
-              </div>
+
+              <span className='d-flex'>
+                <li className='nav-item'>
+                  <button className="btn btn-outline-danger mt-1 mt-sm-0 fs-7 rounded-pill" onClick={() => changeLanguage('en')}>
+                    English
+                  </button>
+                </li>
+                <li className='nav-item'>
+                  <button className="btn btn-outline-danger mt-1 mt-sm-0 fs-7 rounded-pill" onClick={() => changeLanguage('fr')}>
+                    Français
+                  </button>
+                </li>
+                <li className='nav-item'>
+                  <button className="btn btn-outline-danger mt-1 mt-sm-0 fs-7 rounded-pill" onClick={() => changeLanguage('ar')}>
+                    العربية
+                  </button>
+                </li>
+              </span>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
