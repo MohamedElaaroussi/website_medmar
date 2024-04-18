@@ -10,6 +10,8 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import common_fr from './translations/fr/fr.json'; // Vos fichiers de traduction
 import common_en from './translations/en/en.json';
 import common_ar from './translations/ar/ar.json';
+// import { Provider } from 'react-redux';
+// import store from './Redux/store';
 
 i18n
   .use(LanguageDetector)
@@ -28,7 +30,9 @@ i18n
 
 ReactDOM.render(
   <I18nextProvider i18n={i18n}>
-    <App />
+    {/* <Provider store={store}> */}
+      <App />
+    {/* </Provider> */}
   </I18nextProvider>
   ,
   document.getElementById('root')
