@@ -26,6 +26,7 @@ import ClientListe from '../pages/admin/ClientListe';
 import ClientAjouter from '../pages/admin/ClientAjouter';
 import HeroListe from '../pages/admin/HeroListe';
 import HeroModifier from '../pages/admin/HeroModifier';
+import LoginForm from '../LoginForm';
 
 export  const router = createBrowserRouter([
     {
@@ -140,5 +141,8 @@ export  const router = createBrowserRouter([
     {
       path: '/dashboard/hero/modifier/:id',
       element: <HeroModifier />
+    },{
+      path: '/LoginForm',
+      element: <LoginForm/>
     },
 ]);

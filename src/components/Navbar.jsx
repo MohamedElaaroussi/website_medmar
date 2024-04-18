@@ -41,15 +41,30 @@ export default function Navbar() {
                       <span clas>  {link.link}</span>
                     </Link>
                   </li>
-              
+
 
                 ))
               }
-              
-             
-              
-              </ul>
-              </div>
+              <span className='d-flex'>
+                <li className='nav-item'>
+                  <button className="btn btn-outline-danger mt-1 mt-sm-0 fs-7 rounded-pill" onClick={() => changeLanguage('en')}>
+                    English
+                  </button>
+                </li>
+                <li className='nav-item'>
+                  <button className="btn btn-outline-danger mt-1 mt-sm-0 fs-7 rounded-pill" onClick={() => changeLanguage('fr')}>
+                    Français
+                  </button>
+                </li>
+                <li className='nav-item'>
+                  <button className="btn btn-outline-danger mt-1 mt-sm-0 fs-7 rounded-pill" onClick={() => changeLanguage('ar')}>
+                    العربية
+                  </button>
+                </li>
+              </span>
+
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
