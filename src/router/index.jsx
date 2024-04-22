@@ -27,122 +27,126 @@ import ClientAjouter from '../pages/admin/ClientAjouter';
 import HeroListe from '../pages/admin/HeroListe';
 import HeroModifier from '../pages/admin/HeroModifier';
 import LoginForm from '../LoginForm';
+import Admin from '../Admin/componentsAdmin/Admin';
 
-export  const router = createBrowserRouter([
-    {
-        element: <Layout/>,
-        children: [
-              {
-                path: '/',
-                element: <Home/>
-              },
-              {
-                path:'/contact',
-                element:<Contact />
-              },
-              {
-                path:'/realisation',
-                element:<Realisation />
-              },
-              {
-                path:'/sommes-nous',
-                element:<SommesNous />
-              },
-              {
-                path:'/services',
-                element:<Services />
-              },
-              {
-                path:'/événementiel',
-                element:<Evenementiel />
-              },
-              {
-                path:'/événementiel/detail/:id',
-                element:<EventDetail />
-                // element:<EventDetailV2 />
-              },
-              {
-                path:'/admin/login-login-admin',  
-                element:<Login />
-              },
-              {
-                path:'*',
-                element:<h1>Not Found</h1>
-              },
 
-        ],
-        
+export const router = createBrowserRouter([
+  {
+    element: <Layout />,
+    children: [
+      {
+        path: '/',
+        element: <Home />
+      },
+      {
+        path: '/contact',
+        element: <Contact />
+      },
+      {
+        path: '/realisation',
+        element: <Realisation />
+      },
+      {
+        path: '/sommes-nous',
+        element: <SommesNous />
+      },
+      {
+        path: '/services',
+        element: <Services />
+      },
+      {
+        path: '/événementiel',
+        element: <Evenementiel />
+      },
+      {
+        path: '/événementiel/detail/:id',
+        element: <EventDetail />
+        // element:<EventDetailV2 />
+      },
+      {
+        path: '/admin/login-login-admin',
+        element: <Login />
+      },
+      {
+        path: '*',
+        element: <h1>Not Found</h1>
+      },
 
-    },
-    {
-      path: '/dashboard',
-      element: <Dashboard />
-    },
-    {
-      path: '/dashboard/realisation',
-      element: <RealisationListe />
-    },
-    {
-      path: '/dashboard/realisation/ajouter',
-      element: <RealisationAjouter />
-    },
-    {
-      path: '/dashboard/site-web',
-      element: <SiteWebListe />
-    },
-    {
-      path: '/dashboard/site-web/modifier/:id',
-      element: <ModifierSiteWeb />
-    },
-    {
-      path: '/dashboard/youtube',
-      element: <YoutubeListe />
-    },
-    {
-      path: '/dashboard/youtube/modifier/:id',
-      element: <ModifierVideo />
-    },
-    {
-      path: '/dashboard/teams',
-      element: <TeamWorkListe />
-    },
-    {
-      path: '/dashboard/teams/ajouter',
-      element: <TeameAjouter />
-    },
-    {
-      path: '/dashboard/teams/modifier/:id',
-      element: <ModifierTeams />
-    },
-    {
-      path: '/dashboard/events',
-      element: <EventListe />
-    },
-    {
-      path: '/dashboard/events/ajouter',
-      element: <EventAjouter />
-    },
-    {
-      path: '/dashboard/event/modifier/:id',
-      element: <EventModifier />
-    },
-    {
-      path: '/dashboard/clients',
-      element: <ClientListe />
-    },
-    {
-      path: '/dashboard/clients/ajouter',
-      element: <ClientAjouter />
-    },
-    {
-      path: '/dashboard/hero',
-      element: <HeroListe />
-    },
-    {
-      path: '/dashboard/hero/modifier/:id',
-      element: <HeroModifier />
-    },{
-      path: '/LoginForm',
-      element: <LoginForm/>
-    },
+    ],
+
+
+  },
+  {
+    path: '/dashboard',
+    element: <Dashboard />
+  },
+  {
+    path: '/dashboard/realisation',
+    element: <RealisationListe />
+  },
+  {
+    path: '/dashboard/realisation/ajouter',
+    element: <RealisationAjouter />
+  },
+  {
+    path: '/dashboard/site-web',
+    element: <SiteWebListe />
+  },
+  {
+    path: '/dashboard/site-web/modifier/:id',
+    element: <ModifierSiteWeb />
+  },
+  {
+    path: '/dashboard/youtube',
+    element: <YoutubeListe />
+  },
+  {
+    path: '/dashboard/youtube/modifier/:id',
+    element: <ModifierVideo />
+  },
+  {
+    path: '/dashboard/teams',
+    element: <TeamWorkListe />
+  },
+  {
+    path: '/dashboard/teams/ajouter',
+    element: <TeameAjouter />
+  },
+  {
+    path: '/dashboard/teams/modifier/:id',
+    element: <ModifierTeams />
+  },
+  {
+    path: '/dashboard/events',
+    element: <EventListe />
+  },
+  {
+    path: '/dashboard/events/ajouter',
+    element: <EventAjouter />
+  },
+  {
+    path: '/dashboard/event/modifier/:id',
+    element: <EventModifier />
+  },
+  {
+    path: '/dashboard/clients',
+    element: <ClientListe />
+  },
+  {
+    path: '/dashboard/clients/ajouter',
+    element: <ClientAjouter />
+  },
+  {
+    path: '/dashboard/hero',
+    element: <HeroListe />
+  },
+  {
+    path: '/dashboard/hero/modifier/:id',
+    element: <HeroModifier />
+  },
+  {
+    path: '/AdminUser',
+    element: <Admin />
+  },
+  
 ]);

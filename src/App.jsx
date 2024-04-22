@@ -9,7 +9,12 @@ import WatsssapIcons from './components/WatsssapIcons.jsx';
 // import WatsssapIcons from './components/WatsssapIcons.jsx';
 
 
+<<<<<<< HEAD
        
+=======
+
+
+>>>>>>> dev-Mohamed
  export default function App() {
 
 //    const [cursor, setCursor] = useState({ x: 0, y: 0 });

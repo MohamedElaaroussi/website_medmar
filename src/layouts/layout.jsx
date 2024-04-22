@@ -9,6 +9,7 @@ export default function layout() {
       <Navbar />
       <Outlet />
       <Footer />
+
     </>
   )
 }
