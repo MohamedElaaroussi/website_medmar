@@ -1,6 +1,6 @@
 import React from 'react'
 import SideBar from './Side-bar/SideBar'
-import "./style.css"
+import "./Style.css"
 
 const Admin = () => {
   return (
