@@ -38,11 +38,8 @@
     "react-hook-form": "^7.49.2",
     "react-i18next": "^14.1.0",
     "react-icons": "^4.12.0",
-<<<<<<< HEAD
-    "react-redux": "^9.1.1",
-=======
     "react-pro-sidebar": "^1.1.0",
->>>>>>> dev-Mohamed
+    "react-redux": "^9.1.1",
     "react-router-dom": "^6.22.3",
     "react-script": "^2.0.5",
     "react-scripts": "^5.0.1",
