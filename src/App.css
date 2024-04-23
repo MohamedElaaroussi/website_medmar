@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Raleway|Reenie+Beanie);
+
 
 
 * {
@@ -393,7 +395,6 @@ form label {
 
 /* Card 𝕊𝕥𝕒𝕥𝕚𝕤𝕥𝕚𝕢𝕦𝕖𝕤 𝕚𝕞𝕡𝕣𝕖𝕤𝕤𝕚𝕠𝕟𝕟𝕒𝕟𝕥𝕖𝕤 */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway|Reenie+Beanie);
 
 .container_2 .flipper .front img {
   width: 100%;
