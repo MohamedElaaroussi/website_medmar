@@ -982,7 +982,7 @@ section .cards .card:nth-child(2)::before {
   color: #fff;
 }
 .bg-dark {
-  background-color: black;
+  /* background-color: black; */
 }
 
 /* Traduction composant  */
@@ -1271,7 +1271,7 @@ ul.primary li:hover ul {
   font-size: 1.25rem;
   left: 1rem;
   pointer-events: none;
-  color: black;
+  /* color: black; */
   transition: all .22s;
   top: 50%;
   transform: translateY(-50%);
