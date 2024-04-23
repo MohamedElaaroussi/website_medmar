@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap");
+
 
 * {
   font-family: "Poppins", sans-serif;
@@ -598,7 +600,6 @@ h1 {
 
 /* ------------------------------------------------------1-------------------------------------------------------- */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap");
 
 @mixin mQ($rem) {
   @media screen and (min-width: $rem) {
@@ -1176,7 +1177,6 @@ ul:after {
 
 .nav2 {
   position: relative;
-  
   background-image: -webkit-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
   background-image: -moz-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
   background-image: -o-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
